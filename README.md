@@ -6,6 +6,6 @@
  3. [twitch 頻道串連]( https://github.com/yypp06/Portfolio/tree/master/twitch "github")
  ![image](https://raw.githubusercontent.com/yypp06/Portfolio/master/twitch/_Users_apple_haha_homework_week4_twitch.html.png)
  5. [簡易todolist](https://github.com/yypp06/Portfolio/tree/master/todolist "github")
- ![image](https://github.com/yypp06/Portfolio/blob/master/todolist/todolist.png?raw=true)
+ ![image](https://github.com/yypp06/Portfolio/blob/master/todolist/todolist.png)
  4. [留言板]( https://github.com/yypp06/Portfolio/tree/master/messageBoard "github")
      http://mentor-program.co/yypp06/index.php
