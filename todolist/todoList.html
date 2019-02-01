@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>ToDoList</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.add-todo').keydown(function(e){
+                if(e.key === 'Enter'){
+                    addTodo(e.target.value);
+                }
+            })
+             $('.todo-list').click(function(e){
+                const element = $(e.target)
+                if (element.hasClass('todo__delete')){
+                    element.parent().parent().remove();
+                }else if (element.hasClass('todo__done')){
+
+                  if  (element.hasClass('todo__undone')){
+                    element.parent().parent().removeClass('list-group-item-secondary')
+                    element.removeClass('todo__undone')
+                    element.text('done')
+
+                }else{
+                    element.parent().parent().addClass('list-group-item-secondary')
+                    element.addClass('todo__undone')
+                    element.text('undone')
+                   }    
+                }
+            })
+        })
+
+
+        function addTodo(value){
+            const newTodo = getTodoHTML(value);
+            $('.add-todo').val('');
+            $('.todo-list').append(newTodo)
+
+        }
+
+        function getTodoHTML(value){
+            return`  
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    ${value}
+                    <div>
+                        <div class="btn badge badge-secondary badge-pill todo__done" >done</div>
+                        <div class="btn badge badge-secondary badge-pill todo__delete" >delete</div>
+                    </div>
+                </li>`
+        }
+
+
+    </script>
+
+    <style>
+        .container{
+            margin-top: 4%;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">Add Note</span>
+                  </div>
+                  <input type="text" class="form-control add-todo" placeholder="Note" aria-label="Note" aria-describedby="basic-addon1">
+                </div>
+                <ul class="list-group todo-list">
+                  
+                </ul>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
