@@ -9,7 +9,7 @@
  ![image](https://raw.githubusercontent.com/yypp06/Portfolio/master/twitch/_Users_apple_haha_homework_week4_twitch.html.png)
  
  4. [簡易todolist](https://yypp06.github.io/Portfolio/todolist/todoList.html "github")
- ![image](https://github.com/yypp06/Portfolio/blob/master/todolist/todolist.png)
+  ![image](https://raw.githubusercontent.com/yypp06/Portfolio/master/todolist/todolist.png)
  
  5. [留言板]( https://github.com/yypp06/Portfolio/tree/master/messageBoard "github")
      http://mentor-program.co/yypp06/index.php
