@@ -4,6 +4,7 @@ body{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    min-width: 1300px;
 
 }
 .background{
@@ -19,6 +20,7 @@ body{
     right: 0;
     z-index: -1;
     overflow: hidden;  
+    background-size: cover;
 
 }
 .nav{
@@ -220,13 +222,18 @@ body{
 
 }
 .circle{
-    background-color: rgba(255, 255, 255, 0.8);     
+    background-color: rgba(255, 255, 255, 0.8);
     width: 56%;
     height: 90%;
+    top: 43%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
     border-radius: 50%;
     display: none;
-    margin: -1% 0 0 22%;
+    margin: -1% 0 0 21%;
     overflow: hidden;
+    position: absolute;
 
 }
 .question{
