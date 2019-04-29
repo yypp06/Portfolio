@@ -12,7 +12,7 @@
  ![image](https://raw.githubusercontent.com/yypp06/Portfolio/master/twitch/_Users_apple_haha_homework_week4_twitch.html.png)
  
 ## [留言板]( https://github.com/yypp06/Portfolio/tree/master/messageBoard "github")
-     (http://mentor-program.co/yypp06/index.php)
+     [留言板](http://mentor-program.co/yypp06/index.php)
 ## [Globe 測驗活動頁]( https://yypp06.github.io/Portfolio/globe/index.html "github")
  ![image](https://raw.githubusercontent.com/yypp06/Portfolio/master/globe/globe.png)
 
