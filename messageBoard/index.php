@@ -39,6 +39,10 @@
         a{
             color: white;
         }
+        a:hover {
+            color: #000000;
+            text-decoration: none;
+        }
 
         .commentHead{
             padding-top: 15px;

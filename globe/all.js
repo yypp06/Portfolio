@@ -36,6 +36,7 @@ $(document).ready(function(){
         $(".circle").hide();
         $("html,body").animate({scrollTop:$('.result2').offset().top},800);
         $(".answermb").fadeOut(2500);
+        $(".questionmb").hide();
         $(".mobile").hide();
 
     });
@@ -45,6 +46,7 @@ $(document).ready(function(){
         $(".circle").hide();
         $("html,body").animate({scrollTop:$('.result3').offset().top},800);        
         $(".answermb").fadeOut(2500);
+        $(".questionmb").hide();
         $(".mobile").hide();
 
     });
@@ -54,6 +56,7 @@ $(document).ready(function(){
         $(".circle").hide();
         $("html,body").animate({scrollTop:$('.result4').offset().top},800);
         $(".answermb").fadeOut(2500);
+        $(".questionmb").hide();
         $(".mobile").hide();
 
     });
@@ -153,13 +156,13 @@ $(document).ready(function(){
 
 
     $( window ).resize(function() {
-            if($( window ).width() > 768) {
+            if($( window ).width() > 750) {
                 $(".mobile").hide();
                 $(".background").show();
                  
                 
             }
-            if($( window ).width() < 768) {
+            if($( window ).width() < 750) {
                 $(".mobile").show();
                 $(".background").hide();
                  

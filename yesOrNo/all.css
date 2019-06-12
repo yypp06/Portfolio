@@ -131,6 +131,7 @@ body {
     margin: -59% 0% 0% 32%;
     position: absolute;
     opacity: 0;
+    cursor: pointer;
 }
 .no_cover{
     width: 17%;
@@ -140,6 +141,7 @@ body {
     margin: -59% 0% 0% 50%;
     position: absolute;
     opacity: 0;
+    cursor: pointer;
 }
 .mainWord{
     text-align: center;
@@ -218,6 +220,8 @@ body {
     width: 137px;
     height: 33px;
     position: absolute;
+    cursor: pointer;
+
 
 } 
 
@@ -229,6 +233,7 @@ body {
     position: absolute;
     display: none;
     pointer-events: none;
+
 } 
 .rsc1{
     margin: 9% 0 0 29%;
@@ -358,6 +363,7 @@ body {
 
 .manager:hover, .picnic:hover, .orange:hover, .camera:hover{
     background-position : 50% 85%;
+    cursor: pointer;
     
 }
 .btn div{
@@ -380,6 +386,7 @@ body {
 }
 .btn1_1:hover, .btn2_2:hover, .btn3_3:hover , .btn4_4:hover{
     opacity: 0;
+    cursor: pointer;
 }
 .btn2 {
     background: url(img/yes_tab_02_1.png);
@@ -458,6 +465,7 @@ body {
     width: 95px;
     height: 95px;
     opacity: 0.6;
+    cursor: pointer;
 }
 #shoes1 img:hover, #shoes2 img:hover, #shoes3 img:hover, #shoes4 img:hover, #shoes5 img:hover, #clothes_item1 img:hover, #clothes_item2 img:hover, #clothes_item3 img:hover, #clothes_item4 img:hover, #clothes_item5 img:hover{
     opacity: 1;
@@ -480,6 +488,7 @@ body {
     position: absolute;
     margin: 25% 0 0 33%;
     padding: 0 5% 0 0%;
+    cursor: pointer;
 }
 .tag img{
     margin: -79% 0 0 -9%;
@@ -594,6 +603,7 @@ body {
     position: fixed;
     width: 81px;
     height: 81px;
+    cursor: pointer;
 }
  
 .office_btn1{
@@ -653,6 +663,7 @@ body {
     width: 137px;
     height: 33px;
     position: absolute;
+    cursor: pointer;
 
 } 
 .toy1_1, .toy2_1, .toy3_1, .toy4_1, .toy5_1 {
@@ -663,6 +674,7 @@ body {
     position: absolute;
     display: none;
     pointer-events: none;
+    cursor: pointer;
 } 
 .toy1{
     top: 233px;
